@@ -11,4 +11,16 @@ export const Pomodoro = styled.div`
         font-size: 25px;
         text-align: center;
     }
+
+    div p {
+        margin-bottom: .5rem;
+    }
+`;
+
+export const ContainerButtons = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
 `;

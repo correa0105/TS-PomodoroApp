@@ -30,4 +30,8 @@ export default createGlobalStyle`
         display: none;
     }
 
+    .working .app button {
+        background-color: #ef5d50;
+    }
+
 `;
